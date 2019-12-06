@@ -3,7 +3,7 @@ import React from 'react'
 const Players = props => {
 
     return (
-        <div>
+        <div className="players">
 
             {props.players && props.players.map(player =>
 
